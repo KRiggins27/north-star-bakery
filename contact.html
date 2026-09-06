@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8"> 
+       <title>Contact | North Star Bakery</title> 
+    </head>
+<body>
+    <header>
+     <img src="images/bakery-logo_c.png" alt="North Star Bakery Logo"> 
+     <p>North Star Bakery</p>
+     <nav>
+        <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="products.html">Products</a></li>
+         <li><a href="about.html">About</a></li>
+         <li><a href="contact.html">Contact</a></li>
+        </ul>
+     </nav>
+    </header>
+    <main>
+        <h1>Contact Information</h1>
+    <section>
+        <h2>Location</h2>
+        <p>125 North Star Avenue, Minneapolis, MN</p>
+    </section>
+    <section>
+        <h2>Hours of Operation</h2>
+        <p>Monday - Saturday: 7:00 AM - 6:00 PM<br>
+        Sunday: 8:00 AM - 2:00 PM</p>
+    </section>
+    <section>
+        <h2>Inquiry and Pre Order Request Form</h2>
+        <form>
+            <fieldset>
+              <legend>Request Details</legend>  
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+              <label for="email">Email:</label> 
+              <input type="email" id="email" name="email" required> 
+              <label for="pickup-date">Pickup Date:</label> 
+              <input type="date" id="pickup-date" name="pickup-date" required>
+              <p>Request Type:</p>
+              <label for="pre-order">Pre-Order:</label>
+              <input type="radio" id="pre-order" name="request-type" value="pre-order" required>
+              <label for="general-question">General Question:</label>
+              <input type="radio" id="general-question" name="request-type" value="general-question">
+              <label for="order-details">Item Details:</label>
+              <textarea id="order-details" name="order-details" required></textarea>
+              <label for="allergy-notes">Allergy Notes (Optional):</label> 
+              <textarea id="allergy-notes" name="allergy-notes"></textarea>
+              <button type="submit">Submit Request</button>
+            </fieldset>
+        </form>      
+    </section>
+    </main>
+    <footer>
+  <p>&copy; 2026 North Star Bakery</p>  
+    </footer>      
+    </body>
+    </html>
