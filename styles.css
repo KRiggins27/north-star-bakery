@@ -1,0 +1,121 @@
+body {
+    background-color: #f7f1e8;
+    color: #3b2a23;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+header {
+    background-color: #3b2a23;
+    color: #f7f1e8;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+header p {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+nav {
+    margin-left: auto;
+}
+nav a {
+    color: #f7f1e8;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #d98b6c;
+}
+nav a:focus {
+    color: #d98b6c;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+}
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+h1 {
+    color: #a6533f;
+    font-size: 2rem;
+}
+h2 {
+    color: #3b2a23;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #8a9a7b;
+}
+h3 {
+    color: #a6533f;
+    font-size: 1.2rem;
+}
+section {
+    margin-bottom: 2rem;
+}
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.logo {
+    max-width: 150px;
+}
+video {
+    max-width: 100%;
+}
+audio {
+    max-width: 100%;
+}
+fieldset {
+    border: 2px solid #8a9a7b;
+    padding: 1rem;
+}
+legend {
+    color: #a6533f;
+    font-weight: 700;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+    display: block;
+}
+label[for="order-details"],
+label[for="allergy-notes"] {
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    margin-bottom: 0.75rem;
+}
+button {
+    background-color: #a6533f;
+    color: #f7f1e8;
+    border: none;
+    padding: 0.75rem 1.25rem;
+}
+button:hover,
+button:focus {
+    background-color: #d98b6c;
+}
+footer {
+    background-color: #3b2a23;
+    color: #f7f1e8;
+    text-align: center;
+    padding: 1rem;
+}
+@media (min-width: 700px) {
+main {
+    padding: 2rem;
+}
+}
