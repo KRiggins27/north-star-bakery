@@ -114,6 +114,26 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+.error-message {
+    color: #a6533f;
+    font-weight: 700;
+}
+.success-message {
+    color: #3b2a23;
+    font-weight: 700;
+}
+#bakery-preference {
+       padding: 0.5rem;
+        border: 1px solid #8a9a7b;
+        border-radius: 4px;
+          background-color: #ffffff;
+          color: #3b2a23;
+}
+#preference-message {
+    font-weight: 700;
+    color: #a6533f;
+     margin-top: 0.75rem;
+}
 @media (min-width: 700px) {
 main {
     padding: 2rem;
